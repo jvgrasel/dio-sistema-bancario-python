@@ -1,5 +1,25 @@
 # Desafio Criando Sistema Bancário em Python
 
+### Desafio Sistema bancário em Python V3
+
+Atualizar a implementação do sistema bancário, para armazenar os dados de clientes e contas bancárias em objetos no lugar de dicionários. O código deve seguir o modelo de classes UML informado. Após concluir a modelagem das classes e a criação dos métodos. Atualizar os métodos que tratam as opções do menu para funcionarem com classes modeladas.  
+Ajustar funções: **Estabelecer um limite de 10 transações diárias para uma conta e mostrar no extrato, a data e hora de todas transações.**
+
+###### Operações
+
+- Atualização das operações existentes para atender o modelo de Programação Orientada a Objetos.
+- Criar novas funções para que o código fique funcional no modelo POO.
+
+#### Conclusão V3
+ 
+Modelagem com Classes: A implementação foi adaptada para utilizar objetos ao invés de dicionários, conforme o modelo UML fornecido. As classes foram ajustadas para representar clientes e contas de forma mais estruturada e orientada a objetos.
+
+Limitação de Transações: Foi estabelecido um limite de 10 transações diárias por conta, com controle apropriado no método pode_realizar_transacao. O extrato agora inclui a data e hora de todas as transações realizadas.
+
+Métodos Atualizados: As funções do menu foram atualizadas para interagir com as novas classes modeladas, garantindo que todas as operações (depósito, saque, extrato, criação de clientes e contas) funcionem corretamente com o novo design.
+
+__________________________________________________________________________
+
 ### Desafio Sistema bancário em Python V2
 
 Deixar o código mais modularizado, para isso vamos criar funções para as operações existentes: sacar, depositar e visualizar extrato. Além disso, para a versão 2 do nosso sistema, precisamos criar duas novas funções: **criar usuário (cliente banco) e criar conta corrente (vincular com usuário).**
